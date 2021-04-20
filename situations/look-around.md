@@ -1,0 +1,3 @@
+### **You look around again and there it is! The same spirit now following you into the kitchen. Now you begin to think to yourself if you're crazy or not. But, you know you're not crazy because you still see the same spirit. And so you begin to take interest in it but once that happens the spirit begins to slowly disappear. What do you do now?**
+## [Keep looking for the spirit](../situations/END-curiosity.md)
+## [Begin to call out for whatever is present in this room](../situations/END-until-next-time.md)
