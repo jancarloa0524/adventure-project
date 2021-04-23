@@ -1,0 +1,134 @@
+.font {
+    font-family: Montserrat;
+}
+
+.heading_containers {
+    height: 200px;
+    position: relative;
+}
+
+h1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 700;
+}
+
+.top_text {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 400;
+}
+
+.bottom_text {
+    margin: 0;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 400;
+}
+
+.end_text {
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 700;
+}
+
+#top_text_END_forever_stuck {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 400;
+}
+
+#top_text_END_until_next_time {
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 400;
+}
+.default_headings {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 400;
+}
+
+.button_container {
+    height: 200px;
+    position: relative;
+}
+
+
+.button-container-left {
+    height: 200px;
+    width: 50%;
+    position: absolute;
+    right: 50%;
+}
+
+.button-container-right {
+    height: 200px;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+}
+
+.button {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+button {
+  background-color: rgb(92, 85, 84);
+  color: white;
+  font-size: 48px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+button:hover {
+  animation-name: background-color;
+  animation-fill-mode: forwards;
+  animation-duration: 500ms;
+}
+
+@keyframes background-color {
+  100% {
+    background-color: white;
+    color: black;
+  }
+}
